@@ -7,3 +7,5 @@ in the pipeline we created the image , pushed it to docker repo, instance creati
 This pipeline is created on the assumption of deploying the application for the first time in aws cloud. as you mentioned in the description, the company has struggled because of he manual deployment they had. so assumed they are moving to cloud for the first time, so i created everything from VPC to ec2.
 
 I was trying the create auto scaling and loadbalancer in the terraform itself as a another step, but i created them manually because i ran out of time. almost 80% of work done in automation.
+
+If you want to check terraform code working or not just copy file main.tf and variables.tf file. you can check it out on your local machine. or even ansible.yml. you can copy it and test for its working condition.  
