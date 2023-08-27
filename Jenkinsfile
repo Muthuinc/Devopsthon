@@ -47,14 +47,5 @@ pipeline {
                 '''
             }
         }
-        
-        stage ('loadbalancer') {
-            steps {
-                sh '''
-                cd Config/loadbalancer
-                ./lb.sh
-                '''
-            }
-        }
     }
 }
